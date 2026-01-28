@@ -4,8 +4,8 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from rest_framework.authentication import BasicAuthentication,TokenAuthentication
 from rest_framework.authtoken.models import Token
 from rest_framework import status
-from user_app.models import*
-from user_app.serializers import*
+from userapp.models import*
+from userapp.serializers import*
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 from rest_framework_simplejwt.authentication import JWTAuthentication
